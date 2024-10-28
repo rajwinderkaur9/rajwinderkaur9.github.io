@@ -1,0 +1,101 @@
+/*This Portfolio is created for assignment puprose
+Reference taken from w3schools
+*/
+
+body {
+    background: url('images/techbackground.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(5, 26, 24);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Fixed Navbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);;
+}
+
+
+h1, h2 {
+    color: rgb(3, 22, 22);
+}
+/* Sections */
+.container {
+    background: rgba(244, 242, 242, 0.886);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+/* Skill Icons */
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease;
+}
+
+.skill-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Project Cards with Hover Animation */
+.project-card {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-img {
+    transform: scale(1.05);
+}
+
+.project-desc {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-desc {
+    opacity: 1;
+}
+/*resume-hobbies */
+
+
+
+/* Contact Icons */
+#contact{
+    margin-bottom: 40px;
+}
+.contact-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
